@@ -1,0 +1,30 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the article whose screening protocol it implements."
+title: "OSLDMolLib"
+abstract: >-
+  Automated, queue-driven pipeline for screening candidate molecules of electrically pumped
+  organic lasers. It optimises the relevant electronic states (S0, S1, T1, cation and anion)
+  with Gaussian 16, collects their vertical absorptions and the S1 excited-state absorption
+  obtained with Multiwfn, and renders one combined absorption, emission, polaron and triplet
+  spectrum per molecule.
+type: software
+authors:
+  - name: "Pb-207"
+license: MIT
+repository-code: "https://github.com/Pb-207/OSLDMolLib"
+date-released: "2026-09-11"
+references:
+  - type: article
+    title: "Computational screen-out strategy for electrically pumped organic laser materials"
+    authors:
+      - family-names: "Ou"
+        given-names: "Qi"
+      - family-names: "Peng"
+        given-names: "Qian"
+      - family-names: "Shuai"
+        given-names: "Zhigang"
+    journal: "Nature Communications"
+    volume: 11
+    start: 4485
+    year: 2020
+    doi: "10.1038/s41467-020-18144-x"

@@ -102,7 +102,7 @@ The program requires Linux; see [Requirements](#requirements).
 1. Obtain the sources and install the Python dependencies:
 
    ```bash
-   git clone <your-repo-url> OSLDMolLib
+   git clone https://github.com/Pb-207/OSLDMolLib.git OSLDMolLib
    cd OSLDMolLib
    pip install numpy matplotlib
    ```
@@ -332,7 +332,7 @@ OSLDMolLib 是一款面向电泵浦有机激光候选分子的自动化筛选程
 1. 获取源码并安装 Python 依赖：
 
    ```bash
-   git clone <你的仓库地址> OSLDMolLib
+   git clone https://github.com/Pb-207/OSLDMolLib.git OSLDMolLib
    cd OSLDMolLib
    pip install numpy matplotlib
    ```
